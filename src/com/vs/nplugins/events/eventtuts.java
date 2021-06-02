@@ -29,7 +29,7 @@ player.sendMessage(ChatColor.LIGHT_PURPLE + "Welcome to the server :)");
     Material block = player.getWorld().getBlockAt(x,y-1,z).getType();
 if (block == Material.STONE) {
 
-    player.sendMessage(ChatColor.GREEN + "you are standing on stone!!");
+    player.sendMessage(ChatColor.GREEN + " standing on stone!!");
 }
 }
 
