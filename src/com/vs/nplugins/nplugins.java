@@ -17,6 +17,7 @@ public class nplugins extends JavaPlugin {
         //register commands
         getCommand("heal").setExecutor(commands);
         getCommand("feed").setExecutor(commands);
+        getCommand("farmtime").setExecutor(commands);
 
     }
 

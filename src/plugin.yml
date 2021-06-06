@@ -13,3 +13,7 @@ commands:
     usage: /<command>
     aliases: /feedmanya
 
+  farmtime:
+    description: spawns a specified farm animal
+    usage: /<command>
+    aliases: /farmtimemanya
