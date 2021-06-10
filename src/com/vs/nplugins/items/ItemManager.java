@@ -25,7 +25,7 @@ public class ItemManager {
         ItemMeta meta = item.getItemMeta();
         meta.setDisplayName("manyas stick");
         List<String> lore = new ArrayList<String>();
-        lore.add("A ppwerful artifact from dad");
+        lore.add("A ppwerful artifact ");
         meta.setLore(lore);
         meta.addEnchant(Enchantment.LUCK, 1, false);
 
