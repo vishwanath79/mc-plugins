@@ -18,6 +18,8 @@ commands:
     usage: /<command>
     aliases: /farmtimemanya
 
-    givewand:
-      description: Gives our custom item to player
-      usage: /<command>
+  givewand:
+    description: Gives our custom item to player
+    usage: /<command>
+
+

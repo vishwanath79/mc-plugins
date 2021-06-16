@@ -24,8 +24,8 @@ public class ItemManager {
         ItemStack item = new ItemStack(Material.STICK, 1);
         ItemMeta meta = item.getItemMeta();
         meta.setDisplayName("manyas stick");
-        List<String> lore = new ArrayList<String>();
-        lore.add("A ppwerful artifact ");
+        List<String> lore = new ArrayList<>();
+        lore.add("A powerful artifact ");
         meta.setLore(lore);
         meta.addEnchant(Enchantment.LUCK, 1, false);
 
