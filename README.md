@@ -1,3 +1,3 @@
 # mc-plugins
 
-spigot plugins template repo
+Custom minecraft spigot plugins repo.
