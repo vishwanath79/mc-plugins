@@ -17,10 +17,14 @@ public class nplugins extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new eventtuts(), this);
         getServer().getConsoleSender().sendMessage(ChatColor.GREEN + " nplugins activated");
 
+
+
         //register commands
         getCommand("heal").setExecutor(commands);
         getCommand("feed").setExecutor(commands);
         getCommand("farmtime").setExecutor(commands);
+
+
 
        ItemManager.init();
        getCommand("givewand").setExecutor(new enchcommand());
